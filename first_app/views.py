@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
-from first_app.forms import RegisterModelForm
+from first_app.forms import RegisterModelForm, UserModelForm
 from first_app.models import RegisterModel
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login, logout, authenticate
